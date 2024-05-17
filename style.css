@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+.inp{
+    width: 100% !important;
+    height: 80px !important;
+}
+body{
+    width: 100% !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452) !important;
+}
+
+.calculator{
+    border: 1px solid #ff000d !important;
+    padding: 20px !important;
+    border-radius: 16px !important;
+    background: transparent !important;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5) !important;
+
+}
+
+.screen{
+    width: 320px !important;
+    border: none !important;
+    padding: 24px !important;
+    margin: 10px !important;
+    background: transparent !important;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1) !important ;
+    font-size: 40px !important;
+    text-align: right !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+}
+
+.screen::placeholder{
+    color: #ffffff !important;
+}
+
+button{
+    border: none !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin: 10px !important;
+    border-radius: 50% !important;
+    background: transparent !important;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) !important;
+    cursor: pointer !important;
+}
+
+.equalBtn{
+    background-color: #fb7c14 !important;
+}
+
+.operator{
+    color: #f8903b !important;
+}
+.history{
+    background-color:transparent !important;
+}
+.input{
+   display: flex !important;
+    flex-direction: column !important;
+}
+.historybar{
+    height: 30px !important;
+    color:rgb(255, 255, 255) !important;
+    font-size: 20px !important;
+    border: none !important;
+    background-color: transparent !important;
+    font-weight: 560 !important;
+    text-align: right !important;
+    margin-top: 0px !important;
+}
+.lastdiv{
+    background-color: white;
+}
